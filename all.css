@@ -1,0 +1,11 @@
+
+.box {
+  /* PC表示では1200pxを最大幅とする */
+  max-width: 1200px;
+}
+@media screen and (max-width: 520px) {
+  .box {
+    /* スマホ表示では横幅いっぱいに表示する */
+    max-width: 100%;
+  }
+}

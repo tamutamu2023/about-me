@@ -1,0 +1,24 @@
+.moving-text {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #animated-text {
+    font-size: 24px;
+    white-space: nowrap;
+    position: absolute;
+    animation: moveText 5s linear infinite;
+  }
+  
+  @keyframes moveText {
+    0% {
+      right: -100%; 
+    }
+    100% {
+      right: 100%; 
+    }
+  
+  
+  
+  
+  

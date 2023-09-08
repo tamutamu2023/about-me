@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    overflow: hidden; /* ボディのオーバーフローを非表示に */
+}
+
+.image-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    animation: moveImage 5s linear infinite; /* アニメーションを適用 */
+}
+
+@keyframes moveImage {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(100%); /* 画像を下に移動 */
+    }
+}
